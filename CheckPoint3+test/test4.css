@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0px 250px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 15px 250px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    box-shadow: 1px 1px #888888;
+}
+
+.navigation-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 40%;
+}
+
+li {
+    color: #ababab;
+}
+
+.active {
+    color: #00b39b;
+}
+
+.dropdown {
+    position: absolute;
+    background-color: white;
+    display: none;
+    width: 200px;
+    list-style: none;
+    padding: 20px;
+    left: 0;
+}
+
+.dropdown li {
+    padding: 10px;
+    /* background-color: #f1eded; */
+}
+
+.navigation-list li:hover {
+    color: #00b39b;
+}
+
+.dropdown li:hover {
+    background-color: #dadada4f;
+    color: #00b39b;
+}
+
+.dropdown-btn {
+    position: relative;
+}
+
+.dropdown-btn:hover .dropdown {
+    display: block;
+}
+
+
+/* .sticky {
+  background-color: turquoise;
+  position: sticky;
+  top: 150px;
+} */
+
+
+/***************  Informations section     ********************** */
+
+.informations {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.doctors {
+    background-color: #3d83df;
+}
+
+.patients {
+    background-color: #00ccb1;
+}
+
+.clinics {
+    background-color: #1b2734;
+}
+
+.card-style {
+    width: 28%;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    color: white;
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+}
+
+.card-style img {
+    width: 30px;
+}
+
+select {
+    background-color: transparent;
+    border: transparent;
+    outline: 0;
+    font-size: 20px;
+}
+
+.Global {
+    color: #00b39b;
+    float: left;
+    width: 33%;
+    font-size: 1.625em;
+    margin: 0.25em 0 0.35em;
+    padding-right: 1em;
+    font-family: Work Sans, Arial, sans-serif;
+}
+
+.Making {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2.125rem;
+    color: #00b39b;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 1em 0;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+}
+
+.logos {
+    /* height: 20px; */
+    display: flex;
+    width: auto;
+    max-width: 100%;
+    padding-left: 10px;
+    flex-wrap: wrap;
+}
+
+.logoimg {
+    fill: slategray;
+    text-decoration: none;
+    outline: 0;
+    transition: all .2s ease 0s;
+}
+
+@media (max-width: 576px) {
+    body {
+        background-color: white;
+    }
+    .informations {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .card-style {
+        width: 80%;
+        height: 250px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 20px;
+        margin-bottom: 5px;
+        color: white;
+        font-size: 25px;
+        font-family: "Roboto", sans-serif;
+    }
+}

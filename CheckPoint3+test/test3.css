@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: grey;
+}
+
+.nav-bar ul {
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0
+}
+
+.search input {
+    border-radius: 5px;
+}
+
+.introduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction div {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: space-between;
+}
+
+.introduction img {
+    width: 500px;
+    height: 350px;
+}
+
+.skills {
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+}
+
+.pourcentage {
+    background-color: gray;
+    width: 400px;
+    text-align: center;
+}
+
+.progress {
+    width: 60%;
+}
+
+.test {
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    justify-content: space-between;
+}

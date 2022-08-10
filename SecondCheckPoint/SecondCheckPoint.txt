@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Amike</title>
+</head>
+
+<body>
+ 
+    <header>
+        <nav>aami.ke</nav>
+        <nav>Home</nav>
+        <nav>Service</nav>
+        <nav>Skills</nav>
+        <nav>About</nav>
+        <nav>Blog</nav>
+        <nav>Contact</nav>
+
+    </header>
+    
+    <main>
+        <br><br>
+        <section>
+            <!--
+        <table border="2">
+            <tr>
+                <th>links</th>
+                <th>lists</th>
+            </tr>
+            <tr>
+                <td> <a href="https://mail.google.com/">Mail</a></td>
+                <td>
+                    <ul>
+                        <li>Coffee</li>
+                        <li>tea</li>
+                    </ul>
+                </td>
+                <td>
+                    <ol>
+                        <li>food</li>
+                        <li>drinks</li>
+                    </ol>
+                    
+                </td>
+                   <dl>
+                       <dt>Food</dt>
+                       <dd>is delicious</dd>
+
+                   </dl>
+            </tr>
+        </table>
+        -->
+            <img src="C:\Users\yessi\OneDrive\Bureau\SecondCheckPoint\download1.png" alt="fb" height="50" width="50" />
+            <br><br>
+            <img src="C:\Users\yessi\OneDrive\Bureau\SecondCheckPoint\download2.png" alt="twi" height="50" width="50" />
+            <br><br>
+
+            <h1>I'm jonathan Doe</h1><br>
+            <p>I'm Jonathan, professional...........................................</p><br>
+            <button type="button">My profito</button>
+            <img src="C:\Users\yessi\OneDrive\Bureau\SecondCheckPoint\downloadyou3.png" alt="youtube" height="50"
+                width="50" />
+
+        </section>
+        <aside>
+            <img src="C:\Users\yessi\OneDrive\Bureau\SecondCheckPoint\download1.png" alt="mark" height="100" width="50" />
+
+
+
+        </aside>
+
+        <article>
+            <h5>Service</h5><br>
+            <h2>My Services</h2>
+            <p>learn................................................</p>
+            <hr>
+
+            <div>
+                <h3>Web developpement</h3>
+                <p>learn........</p>
+            </div>
+
+            <div>
+                <h3>Web design</h3>
+                <p>learn........</p>
+            </div>
+
+            <div>
+                <h3>Video Editing</h3>
+                <p>learn........</p>
+            </div>
+
+            <div>
+                <h3>Photographie</h3>
+                <p>learn........</p>
+            </div>
+
+            <div>
+                <h3>App Developing</h3>
+                <p>learn........</p>
+            </div>
+
+            <div>
+                <h3>Seo export</h3>
+                <p>learn........</p>
+            </div>
+
+        </article>
+    </main>
+        <footer>
+            <a href="https://learn.gomycode.co/checkpoints/2a75602a-90b9-4d46-bfc6-260639429a75"> Visite our site</a>
+
+   
+    </footer>
+</body>
+
+</html>
